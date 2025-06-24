@@ -58,6 +58,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  gap: 10px;
 }
 img{
   height: 50px;
@@ -68,21 +69,21 @@ img{
   padding: 5px;
   width: 95%;
   height: 60px;
-  border-radius: 15px;
+  border-radius: 5px;
   background-color: #DFDFDF;
   display: flex;
   gap: 5px;
 }
-.data{
+.userData{
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.name{
+.username{
   font-size: 1.2rem;
   font-weight: 800;
 }
-.email{
+.userEmail{
   font-size: 0.8rem;
   color: #636363;
   font-weight: 500;
